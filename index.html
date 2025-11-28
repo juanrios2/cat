@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catella</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6f2, #ffd6e8);
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #b03060;
+      letter-spacing: 1px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 25px;
+      box-shadow: 0 10px 35px rgba(176,48,96,0.25);
+      border: 2px solid #ffb6c1;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+      transition: 0.25s;
+      border: 1px solid #ffd1dc;
+    }
+    .card:hover {
+      transform: translateY(-5px) scale(1.02);
+    }
+    .card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+    .card p {
+      padding: 15px;
+      font-size: 1rem;
+      color: #a83258;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catella</h1>
+  <div class="container">
+    <div id="galeria" class="galeria">
+      <div class="card">
+        <img src="https://imgur.com/ibcWppW" />
+        <p>Un estilo dulce y natural.</p>
+      </div>
+      <div class="card">
+        <img src="https://imgur.com/eoIjumV" />
+        <p>Belleza en perfecta armonía con el atardecer.</p>
+      </div>
+      <div class="card">
+        <img src="https://imgur.com/a/fist96B" />
+        <p>Elegancia femenina capturada frente al espejo.</p>
+      </div>
+      <div class="card">
+        <img src="https://imgur.com/a/0eiISLN" />
+        <p>Un momento especial lleno de luz y celebración.</p>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  </div>
+</body>
+</html>
